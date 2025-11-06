@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
+  background: #faf8ef;
+}
+
+/* Hero */
+.hero {
+  background: url("https://source.unsplash.com/1600x800/?cafe,shop") center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  line-height: 1.7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #c76b2a;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Intro */
+.intro {
+  max-width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.intro img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.intro-text h2 {
+  margin-bottom: 20px;
+}
+
+.master-name {
+  text-align: right;
+  font-style: italic;
+}
+
+/* Menu */
+.menu {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu-block {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.menu-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.menu-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.menu-list h3 {
+  margin-bottom: 20px;
+}
+
+.menu-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  padding: 8px 0;
+  border-bottom: 1px dotted #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Gallery */
+.gallery {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.gallery-row img {
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background: #5a2e00;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  text-align: left;
+}
+
+.copy {
+  font-size: 14px;
+  opacity: .8;
+}
